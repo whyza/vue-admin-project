@@ -1,0 +1,11 @@
+create table user_info(
+   id INT NOT NULL AUTO_INCREMENT,
+   Address VARCHAR(100) NOT NULL,
+   UserName VARCHAR(40) NOT NULL,
+   CreateTime DATE,
+   PRIMARY KEY ( id )
+);
+
+insert into user_info(Address,UserName,CreateTime,role) values('address 001','zhangsan','2018-12-20','admin');
+insert into user_info(Address,UserName,CreateTime,role) values('address 002','zhangsan1','2018-12-21','admin');
+insert into user_info(Address,UserName,CreateTime,role) values('address 003','zhangsan2','2018-12-22','user');
