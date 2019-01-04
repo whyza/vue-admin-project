@@ -9,3 +9,4 @@ create table user_info(
 insert into user_info(Address,UserName,CreateTime,role) values('address 001','zhangsan','2018-12-20','admin');
 insert into user_info(Address,UserName,CreateTime,role) values('address 002','zhangsan1','2018-12-21','admin');
 insert into user_info(Address,UserName,CreateTime,role) values('address 003','zhangsan2','2018-12-22','user');
+insert into user_info(Address,UserName,CreateTime,role) values('address 003','zhangsan4','2018-12-23','user');
