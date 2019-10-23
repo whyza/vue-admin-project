@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "animate.css": "^3.7.0",
-    "axios": "0.18.0",
+    "axios": "0.19.0",
     "element-ui": "2.4.6",
     "js-cookie": "2.2.0",
     "mysql": "^2.16.0",
