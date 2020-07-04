@@ -21,7 +21,7 @@ export function getInfo(token) {
 
 export function logout() {
   return request({
-    url: 'https://easy-mock.com/mock/5950a2419adc231f356a6636/vue-admin/user/logout',
+    url: '',
     method: 'post'
   })
 }
